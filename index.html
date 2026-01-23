@@ -4,20 +4,19 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <meta name="description" content="مكتب محاماة بالمدينة المنورة — استشارات قانونية وتمثيل قضائي. تواصل سريع عبر الاتصال أو واتساب." />
-  <meta name="keywords" content="محامي, محاماة, استشارة قانونية, قضايا, المدينة المنورة, السعودية, واتساب محامي" />
-  <meta name="author" content="مكتب المحاماة - المدينة المنورة" />
+  <title>مكتب محاماة - المدينة المنورة | تواصل سريع</title>
 
-  <title>مكتب محاماة - المدينة المنورة | تواصل سريع واتساب واتصال</title>
+  <meta name="description" content="مكتب محاماة بالمدينة المنورة — استشارات قانونية وتمثيل قضائي وصياغة عقود. تواصل سريع عبر الاتصال أو واتساب." />
+  <meta name="keywords" content="محامي, محاماة, استشارة قانونية, قضايا, المدينة المنورة, السعودية, واتساب محامي" />
+  <meta name="robots" content="index,follow" />
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
 
-  <!-- Favicon -->
   <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
 
   <!-- Structured Data -->
@@ -26,7 +25,7 @@
     "@context": "https://schema.org",
     "@type": "LegalService",
     "name": "مكتب محاماة - المدينة المنورة",
-    "description": "استشارات قانونية وتمثيل قضائي. تواصل سريع عبر الاتصال أو واتساب.",
+    "description": "استشارات قانونية وتمثيل قضائي وصياغة مذكرات وعقود. تواصل سريع عبر الاتصال أو واتساب.",
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "المدينة المنورة",
@@ -42,15 +41,15 @@
 
 <body>
 
-  <!-- Top Nav (مختصر للـ Landing) -->
+  <!-- NAV -->
   <nav id="navbar" class="navbar">
-    <div class="container">
-      <a href="#home" class="logo">
+    <div class="container nav-wrap">
+      <a href="#home" class="logo" aria-label="العودة للأعلى">
         <i class="fas fa-balance-scale"></i>
         <span>مكتب محاماة - المدينة المنورة</span>
       </a>
 
-      <button class="menu-toggle" id="menuToggle" aria-label="القائمة">
+      <button class="menu-toggle" id="menuToggle" aria-label="فتح القائمة">
         <i class="fas fa-bars"></i>
       </button>
 
@@ -59,7 +58,7 @@
         <li><a href="#team">عن المكتب</a></li>
         <li><a href="#contact">تواصل</a></li>
         <li>
-          <a href="tel:0539493424" class="nav-phone">
+          <a class="nav-phone" href="tel:0539493424">
             <i class="fas fa-phone"></i> اتصال سريع
           </a>
         </li>
@@ -67,14 +66,14 @@
     </div>
   </nav>
 
-  <!-- Hero (تركيز تحويل) -->
-  <section id="home" class="hero hero-landing">
-    <div class="container">
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="container hero-wrap">
       <div class="hero-content">
-        <h1 class="hero-title">استشارة قانونية سريعة<span class="highlight"> خلال اليوم</span></h1>
+        <h1 class="hero-title">استشارة قانونية سريعة <span class="highlight">وتواصل مباشر</span></h1>
         <p class="hero-subtitle">اتصال مباشر · واتساب فوري · سرية تامة</p>
 
-        <div class="trust-pills">
+        <div class="trust-pills" aria-label="ميزات">
           <span class="pill"><i class="fas fa-shield-alt"></i> خصوصية</span>
           <span class="pill"><i class="fas fa-gavel"></i> التزام</span>
           <span class="pill"><i class="fas fa-clock"></i> سرعة استجابة</span>
@@ -82,7 +81,7 @@
 
         <p class="hero-description">
           مكتب محاماة بالمدينة المنورة يقدم الاستشارات والتمثيل القضائي وصياغة المذكرات والعقود.
-          اضغط زر الاتصال أو واتساب، أو أرسل تفاصيلك وسنتواصل معك.
+          اضغط زر الاتصال أو واتساب، أو أرسل بياناتك وسنتواصل معك.
         </p>
 
         <div class="hero-buttons">
@@ -97,12 +96,11 @@
 
         <div class="mini-contacts">
           <a class="mini" href="tel:9543839519"><i class="fas fa-phone"></i> 9543839519</a>
-          <a class="mini" href="mailto:maj ed-1394@hotmail.com"><i class="fas fa-envelope"></i> majed-1394@hotmail.com</a>
+          <a class="mini" href="mailto:majed-1394@hotmail.com"><i class="fas fa-envelope"></i> majed-1394@hotmail.com</a>
         </div>
-
       </div>
 
-      <div class="hero-image">
+      <div class="hero-visual" aria-hidden="true">
         <div class="image-placeholder">
           <i class="fas fa-scale-balanced"></i>
         </div>
@@ -114,7 +112,7 @@
     </div>
   </section>
 
-  <!-- Services (مختصر ومقنع) -->
+  <!-- SERVICES -->
   <section id="services" class="services">
     <div class="container">
       <div class="section-header">
@@ -148,7 +146,7 @@
         </div>
       </div>
 
-      <div class="cta-strip">
+      <div class="cta-strip" role="region" aria-label="دعوة للتواصل">
         <div class="cta-text">
           <strong>جاهز تبدأ الآن؟</strong>
           <span>اتصال أو واتساب خلال ثوانٍ</span>
@@ -161,7 +159,7 @@
     </div>
   </section>
 
-  <!-- Team / About (تصحيح البيانات المطلوبة) -->
+  <!-- TEAM/ABOUT -->
   <section id="team" class="team">
     <div class="container">
       <div class="section-header">
@@ -169,40 +167,34 @@
         <p>معلومات التواصل والمسؤول المباشر عن المتابعة</p>
       </div>
 
-      <div class="team-content">
-        <div class="team-member">
-          <div class="member-image">
-            <div class="image-placeholder">
-              <i class="fas fa-user-tie"></i>
-            </div>
+      <div class="team-card">
+        <div class="team-visual" aria-hidden="true">
+          <div class="image-placeholder">
+            <i class="fas fa-user-tie"></i>
           </div>
+        </div>
 
-          <div class="member-info">
-            <h3>المحامي ماجد معتق  المحمدي</h3>
-            <p class="member-title">مدير المكتب</p>
+        <div class="team-info">
+          <h3>ناصر مشحن المحمدي</h3>
+          <p class="team-title">مدير المكتب</p>
 
-            <div class="member-qualifications">
-              <h4>الخبرة:</h4>
-              <ul>
-                <li><i class="fas fa-certificate"></i> خبرة أكثر من 19 سنة</li>
-                <li><i class="fas fa-certificate"></i> متابعة الاستشارات والملفات وتنسيق المواعيد</li>
-              </ul>
-            </div>
+          <ul class="team-points">
+            <li><i class="fas fa-certificate"></i> خبرة أكثر من 19 سنة</li>
+            <li><i class="fas fa-check"></i> متابعة الاستشارات والملفات وتنسيق المواعيد</li>
+          </ul>
 
-            <div class="member-contact">
-              <p><i class="fas fa-phone"></i> <a href="tel:0539493424">0539493424</a></p>
-              <p><i class="fas fa-phone"></i> <a href="tel:9543839519">9543839519</a></p>
-              <p><i class="fas fa-envelope"></i> <a href="mailto:maj ed-1394@hotmail.com">majed-1394@hotmail.com</a></p>
-              <p><i class="fab fa-whatsapp"></i> <a href="https://wa.me/966539493424" target="_blank" rel="noopener">واتساب مباشر</a></p>
-            </div>
-
+          <div class="team-contact">
+            <a href="tel:0539493424" class="chip"><i class="fas fa-phone"></i> 0539493424</a>
+            <a href="tel:9543839519" class="chip"><i class="fas fa-phone"></i> 9543839519</a>
+            <a href="mailto:majed-1394@hotmail.com" class="chip"><i class="fas fa-envelope"></i> majed-1394@hotmail.com</a>
+            <a href="https://wa.me/966539493424" target="_blank" rel="noopener" class="chip chip-wa"><i class="fab fa-whatsapp"></i> واتساب</a>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Contact (نموذج يرسل واتساب أو Email) -->
+  <!-- CONTACT -->
   <section id="contact" class="contact">
     <div class="container">
       <div class="section-header">
@@ -210,40 +202,44 @@
         <p>أرسل بياناتك الآن، واختر الإرسال عبر واتساب أو البريد</p>
       </div>
 
-      <div class="contact-content">
+      <div class="contact-grid">
         <div class="contact-info">
           <h3>قنوات التواصل</h3>
 
-          <div class="contact-details">
+          <div class="contact-list">
             <div class="contact-item">
-              <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
-              <div class="contact-text">
-                <h4>الموقع</h4>
-                <p>المدينة المنورة - المملكة العربية السعودية</p>
+              <div class="contact-ico"><i class="fas fa-map-marker-alt"></i></div>
+              <div>
+                <div class="contact-label">الموقع</div>
+                <div class="contact-value">المدينة المنورة - المملكة العربية السعودية</div>
               </div>
             </div>
 
             <div class="contact-item">
-              <div class="contact-icon"><i class="fas fa-phone"></i></div>
-              <div class="contact-text">
-                <h4>هاتف</h4>
-                <p><a href="tel:0539493424">0539493424</a> — <a href="tel:9543839519">9543839519</a></p>
+              <div class="contact-ico"><i class="fas fa-phone"></i></div>
+              <div>
+                <div class="contact-label">الهاتف</div>
+                <div class="contact-value">
+                  <a href="tel:0539493424">0539493424</a> — <a href="tel:9543839519">9543839519</a>
+                </div>
               </div>
             </div>
 
             <div class="contact-item">
-              <div class="contact-icon"><i class="fas fa-envelope"></i></div>
-              <div class="contact-text">
-                <h4>البريد</h4>
-                <p><a href="mailto:maj ed-1394@hotmail.com">majed-1394@hotmail.com</a></p>
+              <div class="contact-ico"><i class="fas fa-envelope"></i></div>
+              <div>
+                <div class="contact-label">البريد</div>
+                <div class="contact-value"><a href="mailto:majed-1394@hotmail.com">majed-1394@hotmail.com</a></div>
               </div>
             </div>
           </div>
 
-          <div class="whatsapp-direct">
-            <a href="https://wa.me/966539493424" target="_blank" class="btn btn-whatsapp-large" rel="noopener">
-              <i class="fab fa-whatsapp"></i> تواصل عبر واتساب الآن
-            </a>
+          <a href="https://wa.me/966539493424" target="_blank" rel="noopener" class="btn btn-whatsapp-large">
+            <i class="fab fa-whatsapp"></i> تواصل عبر واتساب الآن
+          </a>
+
+          <div class="privacy-hint">
+            باستخدام النموذج، أنت توافق على التواصل معك بخصوص طلبك فقط. <a href="privacy.html">سياسة الخصوصية</a>
           </div>
         </div>
 
@@ -251,19 +247,21 @@
           <h3>أرسل تفاصيلك</h3>
 
           <form id="contactForm">
+            <input type="hidden" id="sendChannel" value="whatsapp" />
+
             <div class="form-group">
               <label for="name">الاسم الكامل *</label>
-              <input type="text" id="name" name="name" required>
+              <input type="text" id="name" name="name" required />
             </div>
 
             <div class="form-group">
               <label for="phone">رقم الهاتف *</label>
-              <input type="tel" id="phone" name="phone" required>
+              <input type="tel" id="phone" name="phone" required />
             </div>
 
             <div class="form-group">
               <label for="email">البريد الإلكتروني</label>
-              <input type="email" id="email" name="email" placeholder="اختياري">
+              <input type="email" id="email" name="email" placeholder="اختياري" />
             </div>
 
             <div class="form-group">
@@ -272,33 +270,37 @@
             </div>
 
             <div class="form-actions">
-              <button type="submit" class="btn btn-whatsapp" data-channel="whatsapp">
+              <button type="submit" class="btn btn-whatsapp" id="btnWhatsApp">
                 <i class="fab fa-whatsapp"></i> إرسال عبر واتساب
               </button>
 
-              <button type="submit" class="btn btn-primary" data-channel="email">
+              <button type="submit" class="btn btn-primary" id="btnEmail">
                 <i class="fas fa-envelope"></i> إرسال عبر البريد
               </button>
             </div>
 
-            <p class="form-note">بالإرسال أنت توافق على التواصل معك بخصوص طلبك فقط.</p>
+            <p class="form-note">لن نستخدم بياناتك لأي غرض إعلاني أو مشاركة مع أطراف غير لازمة.</p>
           </form>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Footer مختصر -->
+  <!-- FOOTER -->
   <footer class="footer">
     <div class="container">
       <div class="footer-bottom">
-        <p>&copy; <span id="currentYear"></span> مكتب محاماة - المدينة المنورة. جميع الحقوق محفوظة.</p>
+        <p>
+          &copy; <span id="currentYear"></span> مكتب محاماة - المدينة المنورة. جميع الحقوق محفوظة.
+          <span class="sep">|</span>
+          <a href="privacy.html">سياسة الخصوصية</a>
+        </p>
       </div>
     </div>
   </footer>
 
-  <!-- WhatsApp Float Button -->
-  <a href="https://wa.me/966539493424" target="_blank" class="whatsapp-float" rel="noopener" aria-label="واتساب">
+  <!-- WhatsApp Float -->
+  <a href="https://wa.me/966539493424" target="_blank" rel="noopener" class="whatsapp-float" aria-label="واتساب">
     <i class="fab fa-whatsapp"></i>
   </a>
 
@@ -308,6 +310,9 @@
     <a class="sticky-btn wa" href="https://wa.me/966539493424" target="_blank" rel="noopener"><i class="fab fa-whatsapp"></i><span>واتساب</span></a>
     <a class="sticky-btn form" href="#contact"><i class="fas fa-pen"></i><span>نموذج</span></a>
   </div>
+
+  <!-- Notification -->
+  <div id="notify" class="notification" aria-live="polite" aria-atomic="true"></div>
 
   <script src="script.js"></script>
 </body>
